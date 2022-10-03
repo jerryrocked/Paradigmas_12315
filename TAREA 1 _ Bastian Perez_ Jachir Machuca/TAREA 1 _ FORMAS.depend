@@ -1,0 +1,268 @@
+# depslib dependency file v1.0
+1663249695 source:c:\users\basti\onedrive\escritorio\tarea 1 _ formas\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663249889 c:\users\basti\onedrive\escritorio\tarea 1 _ formas\formas.h
+
+1663249836 source:c:\users\basti\onedrive\escritorio\tarea 1 _ formas\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663248927 source:c:\users\basti\onedrive\escritorio\tarea 1 _ formas\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663213343 c:\users\basti\onedrive\escritorio\tarea 1 _ formas\miniwin.h
+	<iostream>
+
+1663189413 source:c:\users\basti\onedrive\escritorio\tarea 1 _ formas\leerdatos.cpp
+	"miniwin.h"
+	<cstdlib>
+	<string>
+	"leerDatos.h"
+
+1663188968 c:\users\basti\onedrive\escritorio\tarea 1 _ formas\leerdatos.h
+
+1663628613 source:c:\users\basti\onedrive\escritorio\ult\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663628613 c:\users\basti\onedrive\escritorio\ult\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\ult\miniwin.h
+	<iostream>
+
+1663629082 source:c:\users\basti\onedrive\escritorio\ult\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663635326 source:c:\users\basti\onedrive\escritorio\ult\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663685176 source:c:\users\basti\onedrive\escritorio\ultimo\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663628613 c:\users\basti\onedrive\escritorio\ultimo\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\ultimo\miniwin.h
+	<iostream>
+
+1663629082 source:c:\users\basti\onedrive\escritorio\ultimo\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663683586 source:c:\users\basti\onedrive\escritorio\ultimo\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663849604 source:c:\users\basti\onedrive\escritorio\tarea 1 _ bastian pérez - jahir machuca\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663708956 c:\users\basti\onedrive\escritorio\tarea 1 _ bastian pérez - jahir machuca\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\tarea 1 _ bastian pérez - jahir machuca\miniwin.h
+	<iostream>
+
+1663708956 source:c:\users\basti\onedrive\escritorio\tarea 1 _ bastian pérez - jahir machuca\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663629082 source:c:\users\basti\onedrive\escritorio\tarea 1 _ bastian pérez - jahir machuca\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663849604 source:c:\users\basti\onedrive\escritorio\bastiÁn\unab11500\6to semestre\paradigmas de programaciÓn\04. tareas\tarea 1\tarea 1 _ bastian pérez - jahir machuca\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663708956 c:\users\basti\onedrive\escritorio\bastiÁn\unab11500\6to semestre\paradigmas de programaciÓn\04. tareas\tarea 1\tarea 1 _ bastian pérez - jahir machuca\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\bastiÁn\unab11500\6to semestre\paradigmas de programaciÓn\04. tareas\tarea 1\tarea 1 _ bastian pérez - jahir machuca\miniwin.h
+	<iostream>
+
+1663708956 source:c:\users\basti\onedrive\escritorio\bastiÁn\unab11500\6to semestre\paradigmas de programaciÓn\04. tareas\tarea 1\tarea 1 _ bastian pérez - jahir machuca\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663629082 source:c:\users\basti\onedrive\escritorio\bastiÁn\unab11500\6to semestre\paradigmas de programaciÓn\04. tareas\tarea 1\tarea 1 _ bastian pérez - jahir machuca\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663849604 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian pérez - jahir machuca\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663708956 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian pérez - jahir machuca\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian pérez - jahir machuca\miniwin.h
+	<iostream>
+
+1663708956 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian pérez - jahir machuca\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663629082 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian pérez - jahir machuca\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1663849604 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez_ jachir machuca\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1663708956 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez_ jachir machuca\formas.h
+
+1663213343 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez_ jachir machuca\miniwin.h
+	<iostream>
+
+1663708956 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez_ jachir machuca\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1663629082 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez_ jachir machuca\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
