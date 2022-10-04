@@ -1,6 +1,0 @@
-#Proyecto desarrollado en CodeBlocs#
-
-Integrantes:
--Jahir Machuca
--Bastián Pérez
-

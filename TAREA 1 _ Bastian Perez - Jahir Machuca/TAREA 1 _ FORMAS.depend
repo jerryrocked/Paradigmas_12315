@@ -266,3 +266,40 @@
 	<X11/keysym.h>
 	"miniwin.h"
 
+1664889353 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez - jahir machuca\formas.cpp
+	<iostream>
+	<cmath>
+	"formas.h"
+	"miniwin.h"
+
+1664889353 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez - jahir machuca\formas.h
+
+1664889353 c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez - jahir machuca\miniwin.h
+	<iostream>
+
+1664889353 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez - jahir machuca\main.cpp
+	<iostream>
+	"formas.h"
+	"miniwin.h"
+
+1664889353 source:c:\users\basti\onedrive\escritorio\paradigmas_12315\tarea 1 _ bastian perez - jahir machuca\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
