@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1665026820 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\main.cpp
+	<iostream>
+	<graphics.h>
+	"rectangulo.h"
+	"circulo.h"
+	"cuadrado.h"
+	"Figuras.h"
+
+1665026564 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\cuadrado.cpp
+	"cuadrado.h"
+	"graphics.h"
+
+1665026064 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\cuadrado.h
+	<iostream>
+	"formas.h"
+
+1665025896 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\formas.h
+	<iostream>
+
+1665025078 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\elipse.cpp
+	"elipse.h"
+
+1665025080 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\elipse.h
+	<iostream>
+	"formas.h"
+
+1665026065 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\figuras.cpp
+	"Figuras.h"
+	<iostream>
+
+1665026083 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\figuras.h
+	"rectangulo.h"
+	"formas.h"
+	"cuadrado.h"
+	<iostream>
+
+1665025232 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\rectangulo.h
+	<iostream>
+	"formas.h"
+
+1665025070 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\forma.cpp
+	"formas.h"
+
+1665026572 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1-1\intento\rectangulo.cpp
+	"rectangulo.h"
+	"graphics.h"
+
