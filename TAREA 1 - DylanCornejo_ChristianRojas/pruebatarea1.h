@@ -1,5 +1,5 @@
 #include <iostream>
-#include "graphics.h"
+#include <sstream>
 #include "miniwin.h"
 
 using namespace std;
@@ -27,7 +27,7 @@ class Rectangulo : public Forma {
     void imprimir();
     float calcularArea();
     float calcularPerimetro();
-    void cambiarTamanoRectangulo(float factorEscala); 
+    void cambiarTamano(float factorEscala); 
 };
 
 class Elipse : public Forma {
@@ -36,25 +36,18 @@ class Elipse : public Forma {
     int radioMenor;
   public:
     Elipse(int x, int y, int color, string nombreForma, int radioMayor, int radioMenor);
-    float obtenerAreaElipse();
-    void imprimirElipse();
+    float obtenerArea();
+    void imprimir();
 };
 
 class Cuadrado : public Rectangulo {
-  protected:
-	int lado;
   public:
   	Cuadrado(int x, int y, int color, string nombreForma, int lado);
 };
 
 class Circulo : public Elipse{
-  protected:
-  	int radio;
   public:
   	Circulo(int x, int y, int color, string nombreForma, int radio);
-  	void imprimirCirculo();
-  	float calcularArea();
-  	float calcularPerimetro();
 };
 // DEFINICIÓN DE LAS CLASES
 
@@ -107,6 +100,14 @@ string Forma::obtenerColor(){
 
 void Forma::cambiarColor(int color){
   this->color = color;
+  if (this->color == NEGRO) color_rgb(0, 0, 0);
+  if (this->color == ROJO) color_rgb(255, 0, 0);
+  if (this->color == VERDE) color_rgb(0, 255, 0);
+  if (this->color == AZUL) color_rgb(0, 0, 255);
+  if (this->color == AMARILLO) color_rgb(255, 255, 0);
+  if (this->color == 5) color_rgb(255, 0, 255); 
+  if (this->color == 6) color_rgb(0, 255, 255);
+  if (this->color == BLANCO) color_rgb(255, 255, 255);
 }
 
 Rectangulo::Rectangulo(int x, int y, int color, string nombreForma, int ladoMayor, int ladoMenor): Forma(x, y, color, nombreForma){
@@ -115,9 +116,14 @@ Rectangulo::Rectangulo(int x, int y, int color, string nombreForma, int ladoMayo
 }
 
 void Rectangulo::imprimir(){
+  cambiarColor(this->color);
   rectangulo_lleno(this->x - this->ladoMayor/2 , this->y - this->ladoMenor/2 , this->x + this->ladoMayor/2, this->y + this->ladoMenor/2);
   refresca();
   this->imprimirForma();
+  if (this->nombreForma == "Rectangulo") mensaje("El valor de su lado mayor es: " + tostring(this->ladoMayor) + "\nEl valor de su lado menor es: " + tostring(this->ladoMenor));
+  else if (this->nombreForma == "Cuadrado") mensaje("El valor de sus lados es: " + tostring(this->ladoMayor));
+  borra();
+  refresca();
 }
 
 float Rectangulo::calcularArea(){
@@ -128,9 +134,15 @@ float Rectangulo::calcularPerimetro(){
   return (this->ladoMayor * 2 + this->ladoMenor * 2);
 }
 
-void Rectangulo::cambiarTamanoRectangulo(float factorEscala){
+void Rectangulo::cambiarTamano(float factorEscala){
   this->ladoMayor = this->ladoMayor * factorEscala;
   this->ladoMenor = this->ladoMenor * factorEscala;
+  cambiarColor(this->color);
+  rectangulo_lleno(this->x - this->ladoMayor/2 , this->y - this->ladoMenor/2 , this->x + this->ladoMayor/2, this->y + this->ladoMenor/2);
+  mensaje("Se han cambiado los valores de la figura");
+  refresca();
+  borra();
+  refresca();
 }
 
 Elipse::Elipse(int x, int y, int color, string nombreForma, int radioMayor, int radioMenor) : Forma(x, y, color, nombreForma){
@@ -138,30 +150,38 @@ Elipse::Elipse(int x, int y, int color, string nombreForma, int radioMayor, int 
   this->radioMayor = radioMayor;
 }
 
-float Elipse::obtenerAreaElipse(){
+float Elipse::obtenerArea(){
   return (3.14 * this->radioMayor * this->radioMenor);
 }
 
-void Elipse::imprimirElipse(){
-  cout << "elipse" << endl;
-}
-
-Circulo::Circulo(int x, int y, int color, string nombreForma, int radio) : Elipse(x, y, color, nombreForma, 0, 0){
-	this->radio = radio;
-}
-
-void Circulo::imprimirCirculo(){
-	circulo_lleno(this->x, this->y, this->radio);
+void Elipse::imprimir(){
+  if (this->nombreForma == "Elipse"){
+  	Elipse aux(this->x, this->y, this->color, this->nombreForma, this->radioMayor, this->radioMenor);
+  	int tope = this->radioMayor/2;
+  	for (int i = 0; i <  tope; i++){
+  		cambiarColor(this->color);
+		circulo_lleno(aux.x + i * 2, aux.y, aux.radioMenor - 0.5 * i);
+		circulo_lleno(aux.x - i * 2, aux.y, aux.radioMenor - 0.5 * i);
+	}
+	refresca();	
+	imprimirForma();
+	mensaje("El valor de su radio mayor es: " + tostring(this->radioMayor) + "\nEl valor de su radio menor es: " + tostring(this->radioMenor));
+	borra();
 	refresca();
-	this->imprimirForma();
+  } 
+   
+  if (this->nombreForma == "Circulo"){
+  	cambiarColor(this->color);
+	circulo_lleno(this->x, this->y, this->radioMayor);
+	refresca();
+	imprimirForma();
+	mensaje("El valor de su radio es: " + tostring(this->radioMayor));
+	borra();
+	refresca();
+  }
 }
 
-float Circulo::calcularArea(){
-	return (this->radio * this->radio * 3.14);
-}
-
-float Circulo::calcularPerimetro(){
-	return (2 * this->radio * 3.14);
+Circulo::Circulo(int x, int y, int color, string nombreForma, int radio) : Elipse(x, y, color, nombreForma, radio, radio){
 }
 
 Cuadrado::Cuadrado(int x, int y, int color, string nombreForma, int lado) : Rectangulo(x, y, color, nombreForma, lado, lado){
