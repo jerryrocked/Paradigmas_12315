@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1664851018 source:c:\users\ashle\onedrive\desktop\paradigma\c++ tarea1\1.cpp
+	"miniwin.h"
+
+1665009964 c:\users\ashle\onedrive\desktop\paradigma\c++ tarea1\miniwin.h
+	<iostream>
+
+1665009964 source:c:\users\ashle\onedrive\desktop\paradigma\c++ tarea1\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1665020078 source:c:\users\ashle\onedrive\desktop\paradigma\c++ tarea1\main.cpp
+	<iostream>
+	"forma.h"
+
+1665020004 c:\users\ashle\onedrive\desktop\paradigma\c++ tarea1\forma.h
+	"miniwin.h"
+	<iostream>
+	<cmath>
+
