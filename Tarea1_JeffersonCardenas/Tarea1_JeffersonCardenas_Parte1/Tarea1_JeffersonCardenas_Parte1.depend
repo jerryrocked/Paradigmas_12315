@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1665021204 source:d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\tarea1_jeffersoncardenas_parte1\main.cpp
+	"forma.h"
+	<iostream>
+
+1665021202 d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\tarea1_jeffersoncardenas_parte1\forma.h
+	<iostream>
+

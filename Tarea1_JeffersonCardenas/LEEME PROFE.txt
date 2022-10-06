@@ -1,0 +1,4 @@
+Las dos carpetas tienen las mismas clases, pero los main son distintos
+
+En la carpeta Parte 1 el main prueba las funciones miembro
+En la carpeta Parte 2 el main cambia las figuras al mismo color
