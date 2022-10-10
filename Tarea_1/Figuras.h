@@ -2,7 +2,8 @@
 #include "rectangulo.h"
 #include "formas.h"
 #include "cuadrado.h"
-//#include "elipse.h"
+#include "elipse.h"
+#include "circulo.h"
 #include <iostream>
 
 class Figuras {

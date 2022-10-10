@@ -46,3 +46,81 @@
 	"rectangulo.h"
 	"graphics.h"
 
+1665354802 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\cuadrado.cpp
+	"cuadrado.h"
+
+1665354702 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\cuadrado.h
+	<iostream>
+	"formas.h"
+
+1665354646 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\formas.h
+	<iostream>
+
+1665364197 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\elipse.cpp
+	"elipse.h"
+
+1665364197 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\elipse.h
+	<iostream>
+	"formas.h"
+
+1665364197 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\figuras.cpp
+	"Figuras.h"
+	<iostream>
+
+1665360097 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\figuras.h
+	"rectangulo.h"
+	"formas.h"
+	"cuadrado.h"
+	"elipse.h"
+	"circulo.h"
+	<iostream>
+
+1665364197 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\rectangulo.h
+	<iostream>
+	"formas.h"
+
+1665354662 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\forma.cpp
+	"formas.h"
+
+1665363027 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\main.cpp
+	<iostream>
+	"rectangulo.h"
+	"elipse.h"
+	"cuadrado.h"
+	"miniwin.h"
+	"Figuras.h"
+
+1665354932 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\rectangulo.cpp
+	"rectangulo.h"
+
+1320920740 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1320920740 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\miniwin.h
+	<iostream>
+
+1665364197 c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\circulo.h
+	<iostream>
+	"elipse.h"
+
+1665364197 source:c:\users\fdogo\onedrive\escritorio\s1_22\s2_22\paradigmas\ready\tarea_1\tarea_1\circulo.cpp
+	"circulo.h"
+

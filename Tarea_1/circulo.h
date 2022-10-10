@@ -1,19 +1,20 @@
 #pragma once
 #include <iostream>
-#include "formas.h"
+#include "elipse.h"
 
 using namespace std;
 
-class Elipse : public Forma {
+class Circulo : public Elipse {
   protected:
-    int radioMenor, radioMayor;
+    int radio;
     int tipo;
   public:
-    Elipse();
-    ~Elipse();
-    Elipse(int radioMenor, int radioMayor, string nombre, string color, int x, int y, int tipo);
+    Circulo();
+    ~Circulo();
+    Circulo(int radio, string nombre, string color, int x, int y, int tipo);
     int getLadoMenor();
     int getLadoMayor();
     double calcularArea();
     double calcularPerimetro();
 };
+

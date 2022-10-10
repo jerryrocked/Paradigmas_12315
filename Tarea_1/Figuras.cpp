@@ -19,16 +19,17 @@ Forma * Figuras::getElemento(int pos) {
   }
 };
 
+
 void Figuras::insertarFinal(string nombre, string color, int x, int y, int ladoMenor,int ladoMayor,int tipo) {
   Forma *nuevo;
   if(tipo == 1) {
-    nuevo = new Rectangulo(ladoMenor, ladoMayor, nombre, color, x, y);
+    nuevo = new Rectangulo(ladoMenor, ladoMayor, nombre, color, x, y, tipo);
   } else if(tipo == 2) {
-    nuevo = new Cuadrado(ladoMayor, nombre, color, x, y);
+    nuevo = new Cuadrado(ladoMayor, nombre, color, x, y, tipo);
   } else if (tipo == 3) {
-    //nuevo = new Elipse(ladoMenor,ladoMayor, nombre, color, x, y);
+    nuevo = new Elipse(ladoMenor,ladoMayor, nombre, color, x, y, tipo);
   } else if (tipo == 4) {
-    /* nuevo = new Circulo(x,y,radio); */
+    nuevo = new Circulo(ladoMenor,nombre,color,x,y,tipo);
   } else {
 
   }
@@ -53,4 +54,3 @@ void Figuras::ordernarArreglo() {
     }
   }
 }
-

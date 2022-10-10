@@ -32,15 +32,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Circulo.cpp" />
 		<Unit filename="Cuadrado.cpp" />
 		<Unit filename="Elipse.cpp" />
 		<Unit filename="Figuras.cpp" />
 		<Unit filename="Figuras.h" />
+		<Unit filename="circulo.h" />
 		<Unit filename="cuadrado.h" />
 		<Unit filename="elipse.h" />
 		<Unit filename="forma.cpp" />
 		<Unit filename="formas.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="miniwin.cpp" />
+		<Unit filename="miniwin.h" />
 		<Unit filename="rectangulo.cpp" />
 		<Unit filename="rectangulo.h" />
 		<Extensions />

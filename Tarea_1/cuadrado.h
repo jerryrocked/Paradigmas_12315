@@ -8,11 +8,14 @@ using namespace std;
 class Cuadrado : public Forma {
   protected:
     int lado;
+    int tipo;
   public:
     Cuadrado();
     ~Cuadrado();
-    Cuadrado(int lado, string nombre, string color, int x, int y );
+    Cuadrado(int lado, string nombre, string color, int x, int y, int tipo );
     double calcularPerimetro();
     double calcularArea();
-    void dibujar();
+    /* int getLado(); */
+    int getLadoMenor();
+    int getLadoMayor();
 };
