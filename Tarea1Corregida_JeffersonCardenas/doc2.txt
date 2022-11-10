@@ -1,0 +1,11 @@
+//Rectangulo(nombre, valor x, valor y, lado mayor, lado menor)
+    Rectangulo R("Rectangulo", 5, 6, 20, 10);
+
+//Cuadrado(nombre, valor x, valor y, lado mayor, lado menor)
+    Cuadrado C("Cuadrado", 1, 2, 5, 0); //el valor del lado menor no se usa
+
+//Elipse(nombre, valor x, valor y, radio mayor, radio menor)
+    Elipse E("Elipse", 4, 1, 6, 7);
+
+//Circulo(nombre, valor x, valor y, radio mayor, radio menor)
+    Circulo S("Circulo", 2, 3, 14, 0); //el valor de radio menor no se usa

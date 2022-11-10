@@ -1,0 +1,14 @@
+Rectangulo
+
+al aumentar izq y der, los puntos se mueven a la der
+al aumentar arr y ab, los puntos se mueven hacia ab
+der deberia tener el valor de izq+100
+ab deberia tener el valor de arr+50
+izq entre 0 y 699
+arr entre 0 y 549
+--------------------------------------------------
+Cuadrado
+der deberia tener el valor de izq+50
+ab deberia tener el valor de arr+50
+izq entre 0 y 699
+arr entre 0 y 549

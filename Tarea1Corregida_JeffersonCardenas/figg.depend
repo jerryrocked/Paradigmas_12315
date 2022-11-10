@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1573891735 source:d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\figg\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1573891735 d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\figg\miniwin.h
+	<iostream>
+
+1668089721 source:d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\figg\main.cpp
+	"miniwin.h"
+	"forma.h"
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1668044520 source:d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\figg\forma.cpp
+	"forma.h"
+	<iostream>
+
+1668044521 d:\docs\uni\2022-2\paradigmas de programacion\tarea 1\figg\forma.h
+	<iostream>
+
