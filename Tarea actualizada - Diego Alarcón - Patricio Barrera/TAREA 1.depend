@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1668046524 source:c:\users\diego\desktop\tarea 1 - diego alarcón - patricio barrera\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1668046524 c:\users\diego\desktop\tarea 1 - diego alarcón - patricio barrera\miniwin.h
+	<iostream>
+
+1668089996 source:c:\users\diego\desktop\tarea 1 - diego alarcón - patricio barrera\main.cpp
+	<iostream>
+	"Figuras.h"
+
+1668087681 c:\users\diego\desktop\tarea 1 - diego alarcón - patricio barrera\figuras.h
+	<iostream>
+	<cmath>
+	"miniwin.h"
+
