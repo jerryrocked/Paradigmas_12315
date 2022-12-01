@@ -1,0 +1,33 @@
+principal(X):-
+    write("-::::::::::Bienvenido::::::::::-"),nl,nl,
+    write("------------Menu------------"),nl,
+    write("-Ingrese 1 :si desea calcular su IMC."),nl,
+    write("-Ingrese 2 :si desea calcular su peso ideal."),nl,
+    write("-Ingrese 3 :si desea salir."),
+    read(X),
+    opciones(X).
+
+opciones(X):-
+    X = 1, calcular_imc(_,_),
+    X = 2, calcular_pi(_,_),
+    X = 3.
+
+calcular_pi(H,E):- 
+    write("Ingrese su altura:"), 
+    read(H),nl,
+    write("Ingrese su edad:"), 
+    read(E),nl,
+    Pi is (H-100+((E/10)*0.9)), 
+    write("Su peso ideal es:"),write(Pi),nl.
+     
+calcular_imc(A,P):-
+    write("Ingrese su altura: "),nl,
+     read(A),
+     write("Ingrese su peso en Kg: "),nl,
+    read(P),
+    F is (P/((A*0.01)*(A*0.01))),
+    write("Su IMC es:"),nl,write(F),nl,write("Por lo tanto"),nl,
+    ((F=< 18.5) -> write("Usted esta por debajo del peso ideal"),nl;
+    (F >= 18.6, F =< 24.9)-> write("Usted esta en su peso ideal "),nl;
+    (F >= 25, F =<30)-> write("Usted esta con sobrepeso"),nl;
+    (F >= 30)->write("Usted tiene cierto grado de obesidad")).
