@@ -1,0 +1,47 @@
+peso(X):-
+    number(X),
+    between(0,100,X).
+altura(Y):-
+    number(Y),
+    between(140,200,Y).
+edad(Ed):-
+    number(Ed),
+    between(1,100,Ed).
+/*indice(indice):-
+    number(indice),
+    between(1,100,indice).
+*/
+iMC(peso,altura,Z):-
+    write('Escribe tu peso en KG: '),read(X),
+    %peso(X),
+    write('Escribe tu altura en cm: '),read(Y),
+    %altura(Y),
+    cal_IMC(X,Y,Z),
+    writeln('Su IMC es: '), writeln(Z).
+
+cal_IMC(X,Y,Z):- Z is (X/(Y^2))*10000.
+
+/*
+El valor de tu IMC es: 21.484374999999996
+Su peso ideal es: 61.98
+*/
+
+pesoIdeal(altura,edad,Q):-
+    write('Escribe tu altura en cm: '),read(Y),
+    write('Escribe tu edad en años: '),read(Ed),
+    cal_PesoIdeal(Y,Ed,Q),
+    writeln('Su peso ideal es de: '), writeln(Q).
+
+cal_PesoIdeal(Y,Ed,Q):- Q is (Y-100+((Ed/10)*0.9)). 
+
+menu :- nl,
+    write('*** --- MENU --- ***'), nl,
+    write('1. Calcular IMC'), nl,
+    write('2. Calcular Peso Ideal'), nl,
+    write('3. Salir'), nl, read(Opcion),
+    ejecutar(Opcion).
+
+ejecutar(Opcion):- Opcion ==1, iMC(Y,X,Z),menu;
+    				Opcion ==2, pesoIdeal(altura,edad,Q), menu;
+    				Opcion ==3, true.
+
